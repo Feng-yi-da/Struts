@@ -8,7 +8,6 @@ public class LoginAction extends Action {
 			HttpServletResponse response) throws Exception {
 		// 将ActionForm强制转换为LoginActionForm
 		LoginActionForm loginForm = (LoginActionForm) form;
-
 		// 从LoginActionForm中提取从页面表单传递过来的参数
 		String username = loginForm.getUsername();
 		String password = loginForm.getPassword();
