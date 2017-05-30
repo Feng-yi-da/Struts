@@ -6,6 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=GB18030">
 <title>登录成功</title>
 </head>
-<body>欢迎您，您已经成功登录！您创建的第一个Struts应用程序已成功运行！！！
+<body>
+	欢迎您，您已经成功登录！您创建的第一个Struts应用程序已成功运行！！！
+	<a href="login.jsp">返回登录页面</a>
 </body>
 </html>
