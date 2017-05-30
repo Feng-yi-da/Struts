@@ -4,11 +4,11 @@
           "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
 <struts-config>
 	<form-beans>
-		<form-bean name="loginForm" type="com.bjsxt.strutstest.LoginActionForm" />
+		<form-bean name="loginForm" type="struts.LoginActionForm" />
 	</form-beans>
 
 	<action-mappings>
-		<action path="/login" type="com.bjsxt.strutstest.LoginAction"
+		<action path="/login" type="struts.LoginAction"
 			name="loginForm" scope="request">
 			<forward name="success" path="/login_success.jsp" />
 			<forward name="error" path="/login_error.jsp" />

@@ -1,4 +1,4 @@
-package com.bjsxt.strutstest;
+package struts;
 
 import org.apache.struts.action.ActionForm;
 

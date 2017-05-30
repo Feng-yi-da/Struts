@@ -8,9 +8,9 @@
 </head>
 <body>
 	<form action="login.do" method="post">
-		请输入用户名：<input type="text" name="username"> <br /> 请输入密码：
-		<input type="password" name="password"> <br />
-		<input type="submit" name="submit1" value="登录">
+		请输入用户名：<input type="text" name="username"> <br /> 请输入密码：     <input
+			type="password" name="password"> <br /> <input type="submit"
+			name="submit1" value="登录">
 	</form>
 </body>
 </html>
